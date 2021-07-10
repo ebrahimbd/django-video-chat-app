@@ -1,0 +1,61 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>ebrahim</title>
+
+<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}" >
+
+</head>
+<body>
+
+<h3 id="level-username" >username</h3>
+
+
+
+<div>
+    
+   
+    <input id="username"><button id="btn-join">join rooms</button>
+
+
+
+</div>
+
+
+<div class="main-grid-container">
+    
+    <div id="ami">
+        <div><video id="local-video"  autoplay playsinline></video></div>
+        <button id="btn-toggle-audio">Audio off</button>
+        <button id="btn-toggle-video">Vedio off</button>
+
+    </div>
+
+  <div id="chat">
+      <h3>Chat</h3>
+      <div id="message">
+          <ul id="message-list" ></ul>
+      </div>
+    <div><input id="msg"><button id="btn-send-msg" >Send massage</button></div>
+    </div>
+
+
+
+
+
+
+</div>
+
+
+
+
+ 
+
+    <script type="text/javascript" src="{% static 'js/main.js' %}" >
+   
+    </script>
+</body>
+</html>
